@@ -1,1 +1,6 @@
+# Some site setting
+title: Paul Pritz
+meta_title: Paul Pritz Website
+description: 'personal homapage of Paul Pritz' 
+
 theme: jekyll-theme-minimal
