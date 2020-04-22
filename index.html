@@ -1,14 +1,32 @@
-<!-- ---
+---
 layout: default
---- -->
+---
 
-<h2> About me </h2>
+<h2>About me</h2>
 
 <div class="intro">
-    <p>
-        My name is Paul Pritz and I am currently studying towards a PhD in computer Science at Imperial College London.
-        More content to come...
-    </p>
+  <img class="image" align="right" src="{{ site.author.avatar | prepend: "/images/" | relative_url }}" alt="Profile picture">
+  <p>
+    My name is Paul Pritz and I am currently studying towards a PhD in Computer Science at Imperial College London. 
+    My research is predominantly in Reinforcement Learning, but I have also worked on a number of projects related to blockchain technology.
+    Prior to starting my PhD, I completed a MSc in Computer Science at Imperial College London and a BSc in Economics and Management at King's College London.
+  </p>
 
 
+  <h2>Contact information</h2>
+  <dl class="inline">
+    <dt><i class="fa fa-envelope"></i></dt>
+    <dd>{{ site.author.email }}</dd>
+
+    <dt><i class="fa fa-github"></i></dt>
+    <dd><a href="https://github.com/{{ site.author.github_username }}">GitHub</a></dd>
+
+    <dt><i class="fa fa-linkedin"></i></dt>
+    <dd><a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}/">LinkedIn</a></dd>
+
+    <dt><i class="fa fa-graduation-cap"></i></dt>
+    <dd><a href="https://scholar.google.com/citations?user={{ site.author.google_scholar_username }}">Google Scholar</a></dd>
+
+
+  </dl>
 </div>

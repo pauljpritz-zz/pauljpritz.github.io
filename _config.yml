@@ -1,6 +1,59 @@
-# Some site setting
 title: Paul Pritz
-meta_title: Paul Pritz Website
-description: 'personal homapage of Paul Pritz' 
+description: Paul Pritz personal webiste.
 
-theme: jekyll-theme-minimal
+permalink: blog/:year/:month/:day/:title
+exclude: ["Makefile", "README.md"]
+
+url: "http://paulpritz.com"     # the base hostname & protocol for your site
+baseurl: "/home"                   # the subpath of your site, e.g. /blog
+
+author:
+    name: Paul Pritz
+    email: paulj.pritz96@gmail.com
+    scholar: https://scholar.google.com/citations?user=QgQIRl4AAAAJ&hl=de
+    github: https://github.com/pauljpritz
+    linkedin: https://www.linkedin.com/in/paul-pritz-241978108/
+    avatar: profile.jpg
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#
+analytics:
+    provider: false
+    statcounter:
+        sc_project  :
+        sc_security :
+        sc_invisible: 1
+        sc_text     : 2
+    google:
+        tracking_id: ''
+    getclicky:
+      site_id:
+    mixpanel:
+        token: ''
+    piwik:
+        baseURL: '' # Piwik installation address (without protocol)
+        idsite: ''  # the id of the site on Piwik
+
+# Settings for comments helper
+# Set 'provider' to the comment provider you want to use.
+# Set 'provider' to false to turn commenting off globally.
+#
+comments:
+    provider: false
+    disqus:
+      short_name:
+    livefyre:
+      site_id:
+    intensedebate:
+      account:
+    facebook:
+      appid:
+      num_posts: 5
+      width: 580
+      colorscheme: light
