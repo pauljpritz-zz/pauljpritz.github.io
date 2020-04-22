@@ -41,8 +41,8 @@ hr {
 
 // Images
 img {
-    max-width: 100%;
-    margin: auto auto;
+    max-width: 20%;
+    margin: auto auto auto 1em;
     vertical-align: middle;
 }
 
@@ -160,3 +160,34 @@ ul.listing li.listing-item time {
 ul.listing li.listing-item a {
     color: $url-color;
 }
+
+
+dl {
+    &.emph {
+        dt {
+            font-weight: bold;
+        }
+    }
+
+    &.inline {
+        width: 100%;
+        display: grid;
+        grid-template-columns: max-content auto;
+        dt {
+            grid-column-start: 1;
+            margin: 0;
+            margin-right: 0.5em;
+            padding: 0;
+        }
+        dd {
+            grid-column-start: 2;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
+
+iframe.cv {
+    width: 100%;
+    height: calc(100vh - 300px);
+  }
