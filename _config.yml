@@ -10,9 +10,9 @@ baseurl: ""                   # the subpath of your site, e.g. /blog
 author:
     name: Paul Pritz
     email: paulj.pritz96@gmail.com
-    scholar: QgQIRl4AAAAJ&hl
-    github: pauljpritz
-    linkedin: paul-pritz-241978108
+    google_scholar_username: QgQIRl4AAAAJ&hl
+    github_username: pauljpritz
+    linkedin_username: paul-pritz-241978108
     avatar: profile.jpg
 
 # Build settings
